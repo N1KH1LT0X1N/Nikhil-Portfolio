@@ -1,23 +1,8 @@
----
-title: Nikhil Portfolio
-emoji: 📊
-colorFrom: blue
-colorTo: yellow
-sdk: static
-pinned: false
-license: apache-2.0
-short_description: 2025 Potfolio
----
-
-
----
-
 ## 🚀 Features
 
 - Responsive and modern design
 - Project showcase section
 - About me and contact information
-- Downloadable resume (add if available)
 - Clean and minimal codebase
 
 ---
@@ -34,7 +19,7 @@ short_description: 2025 Potfolio
 <!-- Add screenshots of your portfolio here -->
 <!-- Example: -->
 <!-- ![Screenshot](assets/screenshot.png) -->
-
+</br>
 ---
 
 ## 📦 Getting Started
@@ -63,7 +48,7 @@ Feel free to open issues or submit pull requests for improvements.
 ## 📬 Contact
 
 - **Email:** [nikhilpise2006@gmail.com](mailto:nikhilpise2006@gmail.com)
-- **LinkedIn:** [www.linkedin.com/in/nikhil-pravin-pise](#)
+- **LinkedIn:** [www.linkedin.com/in/nikhil-pravin-pise](www.linkedin.com/in/nikhil-pravin-pise)
 
 ---
 
