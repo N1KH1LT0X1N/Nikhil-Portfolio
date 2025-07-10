@@ -48,7 +48,7 @@ Feel free to open issues or submit pull requests for improvements.
 ## 📬 Contact
 
 - **Email:** [nikhilpise2006@gmail.com](mailto:nikhilpise2006@gmail.com)
-- **LinkedIn:** [www.linkedin.com/in/nikhil-pravin-pise](www.linkedin.com/in/nikhil-pravin-pise)
+- **LinkedIn:** [LinkedIn](https://www.linkedin.com/in/nikhil-pravin-pise/)
 
 ---
 
