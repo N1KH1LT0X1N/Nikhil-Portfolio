@@ -1,0 +1,100 @@
+/* Loading Animation Styles */
+#loader.fade-out {
+	opacity: 0;
+}
+
+/* Micro-interactions */
+.btn-hover-scale {
+	transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.btn-hover-scale:hover {
+	transform: scale(1.05);
+	box-shadow: 0 10px 25px rgba(0, 219, 222, 0.3);
+}
+
+.btn-hover-scale:active {
+	transform: scale(0.98);
+}
+
+/* Card pulse effect */
+@keyframes pulse-border {
+	0%, 100% {
+		box-shadow: 0 0 0 0 rgba(0, 219, 222, 0.4);
+	}
+	50% {
+		box-shadow: 0 0 0 10px rgba(0, 219, 222, 0);
+	}
+}
+
+.card-pulse:hover {
+	animation: pulse-border 1.5s infinite;
+}
+
+/* Parallax sections */
+.parallax-section {
+	position: relative;
+	transform-style: preserve-3d;
+}
+
+.parallax-layer {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+/* Smooth reveal animations */
+@keyframes slideInUp {
+	from {
+		opacity: 0;
+		transform: translateY(30px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+.reveal {
+	animation: slideInUp 0.6s ease forwards;
+}
+
+/* Additional responsive utilities */
+@media (max-width: 640px) {
+	.flip-container {
+		width: 200px;
+		height: 200px;
+	}
+	
+	.book-shelf {
+		overflow-x: auto;
+		-webkit-overflow-scrolling: touch;
+	}
+}
+
+/* Smooth scroll behavior */
+html {
+	scroll-behavior: smooth;
+}
+
+/* Focus visible styles for accessibility */
+*:focus-visible {
+	outline: 2px solid var(--gradient-start);
+	outline-offset: 2px;
+}
+
+/* Print styles */
+@media print {
+	#loader,
+	#scrollToTop,
+	#particles-js,
+	nav,
+	#theme-toggle {
+		display: none !important;
+	}
+	
+	body {
+		background: white !important;
+		color: black !important;
+	}
+}
